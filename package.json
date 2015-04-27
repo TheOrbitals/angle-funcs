@@ -1,6 +1,6 @@
 {
   "name": "angle-functions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Functions for working with angles",
   "main": "index.js",
   "scripts": {
@@ -22,11 +22,7 @@
     "cosh",
     "arcsinh"
   ],
-  "author": {
-    "name": "Don Smith",
-    "email": "locksmithdon@gmail.com",
-    "url": "http://about.me/don.smith"
-  },
+  "author": "Don Smith <locksmithdon@gmail.com> (http://locksmithdon.net)",
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/theorbitals/angle-functions/issues"
