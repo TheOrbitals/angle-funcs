@@ -1,5 +1,5 @@
 {
-  "name": "angle-funcs",
+  "name": "angle-functions",
   "version": "0.1.0",
   "description": "Functions for working with angles",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheOrbitals/angle-funcs.git"
+    "url": "https://github.com/theorbitals/angle-functions.git"
   },
   "keywords": [
     "angles",
@@ -29,9 +29,9 @@
   },
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/TheOrbitals/angle-funcs/issues"
+    "url": "https://github.com/theorbitals/angle-functions/issues"
   },
-  "homepage": "https://github.com/TheOrbitals/angle-funcs",
+  "homepage": "https://github.com/theorbitals/angle-functions",
   "devDependencies": {
     "chai": "^2.3.0",
     "mocha": "^2.2.4"

@@ -1,14 +1,14 @@
-# angle-funcs
+# angle-functions
 
 Functions for working with angles
 
 ## Installation
 
-    npm install git://github.com/theorbitals/angle-funcs.git --save
+    npm install git://github.com/theorbitals/angle-functions.git --save
 
 ## Usage
 
-    var angles = require('angle-funcs');
+    var angles = require('angle-functions');
     var angleInDegrees = 45;
     var sine = angles.sin(angleInDegrees);
 
