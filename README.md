@@ -22,8 +22,8 @@ Functions for working with angles
     sin       // Sine for an angle in degrees
     cos       // Cosine for an angle in degrees
     tan       // Tangent for an angle in degrees
-    degmal    // Round degree angle between 0 and 360
-    radmal    // Round radian angle between 0 and 2*PI
+    rounddeg  // Round degree angle between 0 and 360
+    roundrad  // Round radian angle between 0 and 2*PI
     deg2rad   // Convert degrees to radians
     rad2deg   // Convert radians to degrees
     arccosh   // Inverse hyperbolic cosine

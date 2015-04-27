@@ -2,6 +2,8 @@
  * Common Mathematic Functions
  */
 
+var twoPI = Math.PI * 2.0;
+
 module.exports = {
 
   /**
@@ -11,7 +13,7 @@ module.exports = {
    * @param  {number} y
    * @return {number}
    */
-  fmod: function(x, y) {
+  mod: function(x, y) {
     return x - Math.ceil(x / y) * y;
   },
 
@@ -21,7 +23,7 @@ module.exports = {
    * @param  {float} x
    * @return {float}
    */
-  udsin: function(x) {
+  sin: function(x) {
     return Math.sin(this.deg2rad(x));
   },
 
@@ -31,21 +33,21 @@ module.exports = {
    * @param  {float} x
    * @return {float}
    */
-  udcos: function(x) {
+  cos: function(x) {
     return Math.cos(this.deg2rad(x));
   },
 
   /**
    * Tangent for an angle in degrees
    */
-  udtan: function(x) {
+  tan: function(x) {
     return Math.tan(this.deg2rad(x));
   },
 
   /**
-   * Rounding degree angle between 0 to 360
+   * Rounding degree angle between 0 and 360
    */
-  degmal: function(x) {
+  rounddeg: function(x) {
     var y = 360.0 * (x / 360.0 - Math.floor(x / 360.0));
     if (y < 0.0) {
       y += 360.0;
@@ -57,16 +59,15 @@ module.exports = {
   },
 
   /**
-   * Rounding radian angle between 0 to 2*PI
+   * Rounding radian angle between 0 and 2*PI
    */
-  radmal: function(x) {
-    var y = Math.PI * 2.0 * (x / (Math.PI * 2.0) -
-            Math.floor(x / (Math.PI * 2.0)));
+  roundrad: function(x) {
+    var y = twoPI * (x / twoPI - Math.floor(x / twoPI));
     if (y < 0.0) {
-      y += Math.PI * 2.0;
+      y += twoPI;
     }
-    if (y >= Math.PI * 2.0) {
-      y -= Math.PI * 2.0;
+    if (y >= twoPI) {
+      y -= twoPI;
     }
     return y;
   },
