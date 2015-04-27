@@ -1,0 +1,39 @@
+{
+  "name": "angle-funcs",
+  "version": "0.1.0",
+  "description": "Functions for working with angles",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheOrbitals/angle-funcs.git"
+  },
+  "keywords": [
+    "angles",
+    "degrees",
+    "radians",
+    "mod",
+    "sin",
+    "cos",
+    "tan",
+    "sinh",
+    "cosh",
+    "arcsinh"
+  ],
+  "author": {
+    "name": "Don Smith",
+    "email": "locksmithdon@gmail.com",
+    "url": "http://about.me/don.smith"
+  },
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/TheOrbitals/angle-funcs/issues"
+  },
+  "homepage": "https://github.com/TheOrbitals/angle-funcs",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
