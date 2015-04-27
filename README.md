@@ -4,7 +4,7 @@ Functions for working with angles
 
 ## Installation
 
-    npm install angle-funcs --save
+    npm install git://github.com/theorbitals/angle-funcs.git --save
 
 ## Usage
 
