@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/theorbitals/angle-functions.svg?branch=master)](https://travis-ci.org/theorbitals/angle-functions)
+[![Build Status](https://travis-ci.org/TheOrbitals/angle-functions.svg?branch=master)](https://travis-ci.org/TheOrbitals/angle-functions)
 
 # angle-functions
 
