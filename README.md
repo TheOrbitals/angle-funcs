@@ -40,4 +40,4 @@ Pull requests welcomed. Please lint and supply new/updated tests for your code.
 
 * 0.1.0 Initial release
 * 0.2.0 Ranamed some functions
-
+* 0.3.0 Converted code base to TypeScript. Migrated from Mocha/Chai to Jest. Changed License to Apache-2.0. Added more tests.
