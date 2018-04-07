@@ -8,9 +8,9 @@ Functions for working with angles
 
 ## Usage
 
-    var angles = require('angle-functions');
-    var angleInDegrees = 45;
-    var sine = angles.sin(angleInDegrees);
+    const angles = require('angle-functions');
+    const angleInDegrees = 45;
+    const sine = angles.sin(angleInDegrees);
 
 ## Tests
 
