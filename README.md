@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/theorbitals/angle-functions.svg?branch=master)](https://travis-ci.org/theorbitals/angle-functions)
+
 # angle-functions
 
 Functions for working with angles
